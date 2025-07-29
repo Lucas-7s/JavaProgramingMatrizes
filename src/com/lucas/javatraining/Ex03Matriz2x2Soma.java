@@ -13,9 +13,9 @@ public class Ex03Matriz2x2Soma {
 		Random r = new Random();
 
 		//intro
-		String titulo = "Matriz 3x3 com números aleatórios";
+		String titulo = "Matriz 2x2 + Matriz 2x2 (com números aleatórios)";
 		System.out.println("=".repeat(55));
-		System.out.println(" ".repeat((55 - titulo.length()) / 2) + titulo);
+		System.out.println(" ".repeat((55 - titulo.length()) / 2) + titulo.toUpperCase());
 		System.out.println("=".repeat(55) + "\n");
 		
 		//declarando as matrizes
@@ -35,7 +35,8 @@ public class Ex03Matriz2x2Soma {
 			System.out.println("");
 		}
 		
-		System.out.println("\n" + "Matriz 2: ");
+		System.out.print("\n" + "+" +  "\n\n");
+		System.out.println("Matriz 2: ");
 		
 		//popula matriz2 com random
 		for (int l = 0; l < matriz2.length;l++) {
@@ -47,7 +48,8 @@ public class Ex03Matriz2x2Soma {
 			System.out.println("");
 		}
 		
-		System.out.println("\n"+ "Soma: ");
+		System.out.print("\n" + "=" +  "\n\n");
+		System.out.println("Soma: ");
 		
 		//Soma matriz1 + matriz2:
 		
