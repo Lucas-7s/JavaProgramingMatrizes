@@ -1,3 +1,8 @@
+/* Exercicio
+ * Subitração de Elementos da Matriz
+ * Crie uma matriz 2x2 e calcule a subitração de todos os seus elementos.
+ */
+
 package com.lucas.javatraining;
 
 import java.util.Random;
@@ -29,7 +34,8 @@ public class Ex03Matriz2x2Subtrair {
 		}
 		
 		//popula matriz2
-		System.out.println("\n" + "Matriz B:");
+		System.out.print("\n" + "-" +  "\n\n");
+		System.out.println("Matriz B:");
 		for (int l = 0; l < matriz2.length; l++) {
 			for (int c = 0; c < matriz2[l].length; c++) {
 				matriz2[l][c] = (int)(Math.random()*10);
@@ -39,7 +45,8 @@ public class Ex03Matriz2x2Subtrair {
 		}
 
 		//resultado
-		System.out.println("\n" + "Subtração:");
+		System.out.print("\n" + "=" +  "\n\n");
+		System.out.println("Subtração:");
 		for(int l = 0; l < matrizResultado.length; l++) {
 			for (int c = 0; c < matrizResultado[l].length; c++) {
 				matrizResultado[l][c] = matriz1[l][c] - matriz2[l][c];
