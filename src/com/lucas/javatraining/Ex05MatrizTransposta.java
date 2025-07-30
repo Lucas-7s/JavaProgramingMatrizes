@@ -27,6 +27,16 @@ public class Ex05MatrizTransposta {
 			System.out.println("");
 		}
 		
+		//matriz vira coluna, coluna vira matriz. Saida
+		System.out.println("\n" + "Transposta 3x2: ");
+		for(int l = 0; l < transposta.length; l++) {
+			for(int c = 0; c < transposta[l].length; c++) {
+				transposta[l][c] = matriz[c][l];
+				System.out.print(transposta[l][c] + " | ");
+			}
+			System.out.println("");
+		}
+		
 		System.out.println("\n" + "=".repeat(70));
 
 	}
