@@ -1,3 +1,8 @@
+/* Exercicio
+ * Matriz Transposta
+ * Dada uma matriz 2x3, crie sua matriz transposta (3x2) e imprima-a.
+ */
+
 package com.lucas.javatraining;
 
 import java.util.Random;
@@ -17,7 +22,8 @@ public class Ex05MatrizTransposta {
 		System.out.println("=".repeat(70));
 		System.out.println(" ".repeat((70 - titulo.length())/2) + titulo.toUpperCase());
 		System.out.println("=".repeat(70) + "\n");
-
+		
+		//Popula matriz
 		System.out.println("Matriz 2x3: ");
 		for (int l = 0; l < matriz.length; l++) {
 			for (int c = 0; c < matriz[l].length; c++) {
