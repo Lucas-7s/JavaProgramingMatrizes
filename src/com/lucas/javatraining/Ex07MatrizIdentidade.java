@@ -7,7 +7,7 @@ package com.lucas.javatraining;
 
 import java.util.Random;
 
-public class Ex10MatrizIdentidade {
+public class Ex07MatrizIdentidade {
 
 	public static void main(String[] args) {
 		
