@@ -7,7 +7,7 @@ package com.lucas.javatraining;
 
 import java.util.Random;
 
-public class Ex08MatrizIdentidade {
+public class Ex10MatrizIdentidade {
 
 	public static void main(String[] args) {
 		
@@ -28,7 +28,8 @@ public class Ex08MatrizIdentidade {
 		for(int l = 0; l < matrizIdentidade.length; l++) {
 			for(int c = 0; c < matrizIdentidade[l].length; c++) {
 				
-				if(matrizIdentidade[l] == matrizIdentidade[c]) {
+				//verifica se o numero que ta na linha é igual ao da coluna
+				if(l == c) {
 					matrizIdentidade[l][c] = 1;
 				}
 				System.out.print(matrizIdentidade[l][c] + " | ");
