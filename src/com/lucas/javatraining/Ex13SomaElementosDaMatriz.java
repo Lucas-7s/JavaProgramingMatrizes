@@ -43,7 +43,7 @@ public class Ex13SomaElementosDaMatriz {
 			System.out.println("");
 		}
 		
-		System.out.println("\n" + "Soma Entra Matriz A e B");
+		System.out.println("\n" + "Soma Entra Matriz A e B:");
 		for(int l = 0; l < soma.length; l++) {
 			for(int c = 0; c < soma[l].length; c++) {
 				soma[l][c] = soma(matrizA[l][c],matrizB[l][c]);
