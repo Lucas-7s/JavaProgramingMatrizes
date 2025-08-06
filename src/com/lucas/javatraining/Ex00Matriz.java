@@ -17,12 +17,12 @@ public class Ex00Matriz {
 		System.out.println(" ".repeat((70 - titulo.length())/2) + titulo.toUpperCase());
 		System.out.println("=".repeat(70) + "\n");
 		
-		//popula matriz com números aleatórios com random
+		//looping que passa por todas as possições da matriz
 		System.out.println("Matriz 3x3:");
-		for(int linha = 0; linha < matriz.length; linha++) {
-			for(int coluna = 0; coluna < matriz[linha].length; coluna++) {
-				matriz[linha][coluna] = (int)(Math.random()*10);
-				System.out.print(matriz[linha][coluna] + " | ");
+		for(int linha = 0; linha < matriz.length; linha++) { //l=linha
+			for(int coluna = 0; coluna < matriz[linha].length; coluna++) { //c=coluna
+				matriz[linha][coluna] = (int)(Math.random()*10); //popula matriz na posição [l][c] com números aleatórios com random
+				System.out.print(matriz[linha][coluna] + " | "); //mostra resultado na posição [l][c]
 			}
 			System.out.println("");
 		}
