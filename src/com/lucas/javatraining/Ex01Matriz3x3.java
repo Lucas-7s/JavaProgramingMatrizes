@@ -17,12 +17,12 @@ public class Ex01Matriz3x3 {
 		//inicia a matriz
 		int [][] matriz = new int [3][3];
 		
-		//popula matriz com soma
+		//looping que passa por todas as possições da matriz
 		int contador = 0;
 		for (int linha = 0; linha < matriz.length; linha++) {
 			for (int coluna = 0; coluna < matriz[linha].length; coluna++) {
-				contador++;
-				matriz[linha][coluna] = contador;
+				contador++;//cada vez que passar por ele, é adicionado 1
+				matriz[linha][coluna] = contador; //popula a posição linha e coluna com o valor atual no contador
 				System.out.print(matriz[linha][coluna] + " | ");
 			}
 			System.out.println("");
