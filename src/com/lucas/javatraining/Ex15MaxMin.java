@@ -53,15 +53,16 @@ public class Ex15MaxMin {
 			for(int c = 0; c < matriz[l].length; c++) {
 				if (matriz[l][c] == max) {
 					if(tamanhoMax != "") tamanhoMax += "\n";
-					tamanhoMax += "linha " + l + " coluna " + c;
+					tamanhoMax += "linha " + l + " coluna " + c; //registra a posição de todos os maiores numeros
 				}
 				if (matriz[l][c] == min) {
 					if(tamanhoMin != "") tamanhoMin += "\n";
-					tamanhoMin += "linha " + l + " coluna " + c;
+					tamanhoMin += "linha " + l + " coluna " + c; //registra a posição de todos os menores numeros
 				}
 			}
 		}
 		
+		//saida de todas as posições armazenadas
 		System.out.println("\n" + "Maior número da Matriz: " + max + " na posição: " + "\n" + tamanhoMax);
 		System.out.println("\n" + "Menor número da Matriz: " + min + " na posição: " + "\n" + tamanhoMin);
 		
