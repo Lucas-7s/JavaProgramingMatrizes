@@ -1,6 +1,6 @@
 /* Exercicio
  * Matriz Espelho
- * Crie um método que gere a matriz espelho (reflexão) de uma matriz 3x3
+ * Crie um método que gere a matriz espelho (reflexão) de uma matriz 3x3.
  */
 
 package com.lucas.javatraining;
