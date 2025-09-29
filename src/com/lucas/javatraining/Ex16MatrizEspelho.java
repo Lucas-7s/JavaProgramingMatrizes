@@ -48,5 +48,5 @@ public class Ex16MatrizEspelho {
 		
 		System.out.println("\n" + "=".repeat(70));
 	}
-
+	
 }
