@@ -32,6 +32,7 @@ public class Ex09SomaLinhaEColuna {
 				matriz[l][c] = (int)(Math.random()*10); //popula matriz com valor aleatório de 0 a 10
 				System.out.print(l + ";" + c + " = " + matriz[l][c] + " | ");
 				
+				//salva o resultado na matriz resultado
 				if(l == 0) resultado[0][0] += matriz[l][c];
 				if(l == 1) resultado[0][1] += matriz[l][c];
 				if(l == 2) resultado[0][2] += matriz[l][c];
@@ -41,8 +42,7 @@ public class Ex09SomaLinhaEColuna {
 				if(c == 1) resultado[1][1] += matriz[l][c];
 				if(c == 2) resultado[1][2] += matriz[l][c];
 				if(c == 3) resultado[1][3] += matriz[l][c];
-				
-				
+
 			}
 			System.out.println("");
 		}
@@ -52,6 +52,7 @@ public class Ex09SomaLinhaEColuna {
 		for(int l = 0; l < resultado.length; l++) {
 			for(int c = 0; c < resultado[l].length; c++) {
 				
+				//saida
 				if(l == 0) {
 					if(c == 0) System.out.println("Soma da linha " + (c+1) + ": " + resultado[l][c]);
 					if(c == 1) System.out.println("Soma da linha " + (c+1) + ": " + resultado[l][c]);
