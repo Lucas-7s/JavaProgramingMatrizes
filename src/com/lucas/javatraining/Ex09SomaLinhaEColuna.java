@@ -67,9 +67,6 @@ public class Ex09SomaLinhaEColuna {
 				}
 			}
 		}
-		
 		System.out.println("\n" + "=".repeat(55));
-
 	}
-
 }
